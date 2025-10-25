@@ -16,8 +16,8 @@ export const router = createBrowserRouter([
             </ProtectedRoute>
         ),
         children: [
-            { path: "/", element: <HomePage /> },
-            { path: "/blog/:slug", element: <BlogPage /> },
+            { path: "/profile_thienbao/", element: <HomePage /> },
+            { path: "/profile_thienbao/blog/:slug", element: <BlogPage /> },
         ],
     },
     { path: "/*", element: <NotFound /> },

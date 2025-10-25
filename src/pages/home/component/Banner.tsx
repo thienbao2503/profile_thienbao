@@ -36,16 +36,16 @@ function Banner() {
                     muted
                     className="w-full h-full object-cover"
                 >
-                    <source src="/images/bg-video.mp4" type="video/mp4" />
+                    <source src="./images//bg-video.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className="z-1 box-left w-40 flex flex-col h-full gap-5">
                 <div className="rounded-full box-glass w-full h-40 relative flex justify-center items-center">
-                    <img width={20} height={20} src="/images/fire.gif" className="absolute w-[150%] h-[150%] -top-28" alt="" />
+                    <img width={20} height={20} src="./images//fire.gif" className="absolute w-[150%] h-[150%] -top-28" alt="" />
                     <p className="mt-10 family-Pacifico text-[#fd9e11]">{tinhSoNgay('2023-03-13')}</p>
                 </div>
                 <div className="w-full flex-1 box-glass rounded-full z-1 p-5" >
-                    <img className="w-full aspect-square rounded-full" width={200} height={200} src="/images/avatar.jpg" alt="" />
+                    <img className="w-full aspect-square rounded-full" width={200} height={200} src="./images//avatar.jpg" alt="" />
                     <div className="w-full">
                         <ul className="w-full flex flex-col items-center py-10 gap-10">
                             <li>
@@ -96,7 +96,7 @@ function Banner() {
                         muted
                         className="w-full h-full object-cover"
                     >
-                        <source src="/images/bg-video.mp4" type="video/mp4" />
+                        <source src="./images//bg-video.mp4" type="video/mp4" />
                     </video>
                 </div>
 

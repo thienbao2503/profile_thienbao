@@ -9,19 +9,19 @@ const projects = [
             {
                 title: "CosmoLove",
                 desc: "CosmoLove trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.",
-                img: "/images/shop-01.png",
+                img: "./images//shop-01.png",
                 link: "http://localhost:5501/shop-01/",
             },
             {
                 title: "Basic Shop",
                 desc: "Chào mừng bạn đến với cửa hàng của chúng tôi. Basic Shop cung cấp cho bạn những mẫu thời trang mới và hot nhất trên thị trường hiện nay. Đến với cửa hàng chúng tôi là lựa chọn tốt nhất chủa bạn.",
-                img: "/images/shop-02.png",
+                img: "./images//shop-02.png",
                 link: "http://localhost:5501/shop-02/",
             },
             {
                 title: "Instyle Fashion",
                 desc: "Instyle Fashion trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.",
-                img: "/images/shop-03.png",
+                img: "./images//shop-03.png",
                 link: "http://localhost:5501/shop-03/",
             },
         ]
@@ -34,19 +34,19 @@ const projects = [
             {
                 title: "GPS Xe Máy",
                 desc: "Nền tảng Website App giúp người dùng theo dõi vị trí xe máy theo thời gian thực, xem lại lịch sử di chuyển, vận tốc và cảnh báo an toàn. Hỗ trợ tắt máy từ xa và thiết lập hàng rào cảnh báo thông minh.",
-                img: "/images/gps.png",
+                img: "./images//gps.png",
                 link: "#",
             },
             {
                 title: "CRM Trung Tâm Tiếng Anh",
                 desc: "Hệ thống CRM giúp trung tâm tiếng Anh quản lý học viên, giảng viên, lớp học và doanh thu. Tích hợp tính năng chăm sóc học viên, tự động nhắc lịch học và theo dõi tiến độ đào tạo.",
-                img: "/images/easy.png",
+                img: "./images//easy.png",
                 link: "#",
             },
             {
                 title: "CRM Du Lịch",
                 desc: "Hệ thống CRM quản lý khách hàng và booking cho doanh nghiệp du lịch, tập trung vào dịch vụ du thuyền và các gói dịch vụ cao cấp đi kèm. Hỗ trợ theo dõi đơn hàng, thanh toán và chăm sóc khách sau chuyến đi.",
-                img: "/images/marmoris.png",
+                img: "./images//marmoris.png",
                 link: "#",
             },
         ]
@@ -59,7 +59,7 @@ const projects = [
             {
                 title: "LOVENY",
                 desc: "Bạn đang tìm kiếm một ứng dụng giúp bạn và người ấy thêm gắn kết, hiểu nhau hơn và cùng nhau trải nghiệm những khoảnh khắc thú vị? Hãy đến với LOVENY - một ứng dụng tuyệt vời dành cho các cặp đôi với nhiều tính năng hấp dẫn.",
-                img: "/images/loveny.jpg",
+                img: "./images//loveny.jpg",
                 link: "#",
             },
 

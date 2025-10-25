@@ -1,11 +1,11 @@
 
 function Company() {
     return (
-        <div className="bg-fixed bg-no-repeat bg-cover bg-center relative bg-black text-white shadow-lg px-8 py-40 flex flex-col md:flex-row items-center md:items-center gap-8 overflow-hidden" style={{ backgroundImage: "url('/images/bgIdea.webp')" }}>
+        <div className="bg-fixed bg-no-repeat bg-cover bg-center relative bg-black text-white shadow-lg px-8 py-40 flex flex-col md:flex-row items-center md:items-center gap-8 overflow-hidden" style={{ backgroundImage: "url('./images//bgIdea.webp')" }}>
             {/* Hình minh họa công ty (có thể thay bằng logo hoặc hình ảnh công ty) */}
             <div className="flex-1 flex justify-center items-center">
                 <img
-                    src="/images/logo2.png"
+                    src="./images//logo2.png"
                     alt="Company Illustration"
                     className=" w-60 h-60 object-contain bg-white rounded-full"
                 />

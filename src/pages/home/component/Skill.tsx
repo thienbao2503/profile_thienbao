@@ -13,7 +13,7 @@ function Skill() {
                 <h2 className="!text-3xl font-bold text-center mb-20 z-10">Kỹ Năng Chuyên Môn</h2>
                 <div className="grid grid-cols-2 gap-x-[300px] gap-y-0">
                     <div className="bg-white rounded-[30px] flex flex-col p-2" data-aos="fade-up">
-                        <img src={'/images/pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
+                        <img src={'./images//pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
                         <div className="bg-[#fef0E9] rounded-[26px] p-4 gap-4 flex flex-col">
                             <h2 className="text-[#e28a36] text-xl font-semibold">2021</h2>
                             <div className="grid grid-cols-3 gap-2">
@@ -35,7 +35,7 @@ function Skill() {
                     <div></div>
                     <div></div>
                     <div className="bg-white rounded-[30px] flex flex-col p-2" data-aos="fade-up">
-                        <img src={'/images/pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
+                        <img src={'./images//pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
                         <div className="bg-[#e2e9ff] rounded-[26px] p-4 gap-4 flex flex-col">
                             <h2 className="text-[#6d7994] text-xl font-semibold">2022</h2>
                             <div className="grid grid-cols-3 gap-2">
@@ -57,7 +57,7 @@ function Skill() {
                     <div></div>
                     <div></div>
                     <div className="bg-white rounded-[30px] flex flex-col p-2" data-aos="fade-up">
-                        <img src={'/images/pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
+                        <img src={'./images//pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
                         <div className="bg-[#f5e6ff] rounded-[26px] p-4 gap-4 flex flex-col">
                             <h2 className="text-[#60396b] text-xl font-semibold">03 2023</h2>
                             <div className="grid grid-cols-3 gap-2">
@@ -87,7 +87,7 @@ function Skill() {
                     <div></div>
                     <div></div>
                     <div className="bg-white rounded-[30px] flex flex-col p-2" data-aos="fade-up">
-                        <img src={'/images/pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
+                        <img src={'./images//pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
                         <div className="bg-[#fef0E9] rounded-[26px] p-4 gap-4 flex flex-col">
                             <h2 className="text-[#e28a36] text-xl font-semibold">09 2023</h2>
                             <div className="grid grid-cols-3 gap-2">
@@ -109,7 +109,7 @@ function Skill() {
                     <div></div>
                     <div></div>
                     <div className="bg-white rounded-[30px] flex flex-col p-2" data-aos="fade-up">
-                        <img src={'/images/pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
+                        <img src={'./images//pin.png'} className="mx-auto mb-4" width={20} height={20} alt="" />
                         <div className="bg-[#e2e9ff] rounded-[26px] p-4 gap-4 flex flex-col">
                             <h2 className="text-[#6d7994] text-xl font-semibold">02 2024</h2>
                             <div className="grid grid-cols-3 gap-2">
