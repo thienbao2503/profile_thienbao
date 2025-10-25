@@ -74,7 +74,7 @@ export default function ExperienceSection() {
             <div className="mx-auto w-[90%] max-w-[1200px]">
                 <h2 className="!text-3xl font-bold text-center mb-10 z-10">Kinh nghiệm làm việc</h2>
                 {/* Header */}
-                {projects.map((item, index) => (
+                {projects.map((item, _) => (
 
                     <>
                         <div className="flex justify-between items-start mb-12">

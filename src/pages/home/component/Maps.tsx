@@ -21,13 +21,13 @@ const customIcon = (url: string) => {
 }
 
 // Hàm tạo DivIcon để hiện label
-function createLabelIcon(label: string) {
-    return L.divIcon({
-        className: "custom-label-icon",
-        html: `<div style="background:rgba(255,140,0,0.9);color:white;padding:2px 8px;border-radius:8px;font-size:14px;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,0.2);white-space:nowrap; width:fit">${label}</div>`,
-        iconAnchor: [0, 24],
-    });
-}
+// function createLabelIcon(label: string) {
+//     return L.divIcon({
+//         className: "custom-label-icon",
+//         html: `<div style="background:rgba(255,140,0,0.9);color:white;padding:2px 8px;border-radius:8px;font-size:14px;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,0.2);white-space:nowrap; width:fit">${label}</div>`,
+//         iconAnchor: [0, 24],
+//     });
+// }
 
 // Component tự động fit bounds khi scroll tới bản đồ
 function FitBoundsOnView({ positions }: { positions: [number, number][] }) {

@@ -1,5 +1,5 @@
 import {
-    Banner, Company,
+    Banner,
     Projects,
     Skill
 } from "./component";
