@@ -35,7 +35,7 @@ export default function BlogDetail() {
                 {sidePosts.map((side) => (
                     <Link
                         key={side.id}
-                        to={`/blog/${side.slug}`}
+                        to={`/profile_thienbao/blog/${side.slug}`}
                         className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-100 transition"
                     >
                         <img

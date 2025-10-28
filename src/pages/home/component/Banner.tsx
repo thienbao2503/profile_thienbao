@@ -42,45 +42,45 @@ function Banner() {
             <div className="z-1 box-left w-40 flex flex-col h-full gap-5">
                 <div className="rounded-full box-glass w-full h-40 relative flex justify-center items-center">
                     <img width={20} height={20} src="./images//fire.gif" className="absolute w-[150%] h-[150%] -top-28" alt="" />
-                    <p className="mt-10 family-Pacifico text-[#fd9e11]">{tinhSoNgay('2023-03-13')}</p>
+                    <p className="mt-10 family-Pacifico text-[#fd9e11]">{tinhSoNgay('2023-03-20')}</p>
                 </div>
                 <div className="w-full flex-1 box-glass rounded-full z-1 p-5" >
                     <img className="w-full aspect-square rounded-full" width={200} height={200} src="./images//avatar.jpg" alt="" />
                     <div className="w-full">
                         <ul className="w-full flex flex-col items-center py-10 gap-10">
                             <li>
-                                <Link to="/">
+                                <a href="#ky_nang">
                                     <i className="text-2xl text-white hover:text-[#fd9e11] fi fi-rr-skill"></i>
                                     {/* Kỹ năng */}
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="/">
+                                <a href="#kinh_nghiem">
                                     <i className="text-2xl text-white hover:text-[#fd9e11] fi fi-rr-corporate"></i>
                                     {/* Thông tin công ty */}
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="/">
+                                <a href="#blog">
                                     <i className="text-2xl text-white hover:text-[#fd9e11] fi fi-rr-master-plan"></i>
                                     {/* Dự án nổi bật */}
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                         <div className="w-full h-[1px] bg-gray-50"></div>
                         <ul className="w-full flex flex-col items-center py-10 gap-10">
                             <li>
-                                <Link to="/">
+                                <Link to="https://www.facebook.com/thienbao.lainguyen.1/" target="_blank">
                                     <FaFacebook className="text-2xl text-white hover:text-[#fd9e11]" />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
+                                <Link to="https://www.tiktok.com/@thienbao2190e?is_from_webapp=1&sender_device=pc" target="_blank">
                                     <FaTiktok className="text-2xl text-white hover:text-[#fd9e11]" />
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/">
+                                <Link to="https://github.com/thienbao2503" target="_blank">
                                     <FaGithub className="text-2xl text-white hover:text-[#fd9e11]" />
                                 </Link>
                             </li>

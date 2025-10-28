@@ -6,6 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 i {
   transform: translateY(2px);
 }

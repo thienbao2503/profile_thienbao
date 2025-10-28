@@ -4,17 +4,16 @@ import { dataBlog } from "../../../content";
 function Blogs() {
 
     return (
-        <section className="section-new-post pb-10">
+        <section className="section-new-post pb-10" id="blog">
             <div className="w-[1200px] mx-auto">
                 <div className="box-1">
                     <h2><a aria-label="link-web" href="#">Blog</a></h2>
                 </div>
                 <div className="box-2">
                     {dataBlog.map((item, index) => (
-
                         <Link
                             key={index}
-                            to={`/blog/${item.slug}`}
+                            to={`/profile_thienbao/blog/${item.slug}`}
                             className="item rounded-lg">
                             <div className="header-post">
                                 <a aria-label="link-web" href="#">

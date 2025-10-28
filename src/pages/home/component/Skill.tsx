@@ -8,7 +8,7 @@ function Skill() {
         AOS.init();
     }, []);
     return (
-        <div className=" relative z-1">
+        <div className=" relative z-1" id="ky_nang">
             <section className="p-20 mx-auto w-[1200px] ">
                 <h2 className="!text-3xl font-bold text-center mb-20 z-10">Kỹ Năng Chuyên Môn</h2>
                 <div className="grid grid-cols-2 gap-x-[300px] gap-y-0">

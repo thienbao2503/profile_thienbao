@@ -1,5 +1,6 @@
 
 
+import imgae from "./assets/blog-2.avif"
 // 📁 dataBlog.js
 export const dataBlog = [
     {
@@ -269,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () =&gt; {
         slug: 'javascript-es6-features-huong-dan-toan-dien',
         title: 'JavaScript ES6+ Features - Hướng dẫn toàn diện',
         description: 'JavaScript là ngôn ngữ không ngừng phát triển. Với phiên bản ES6 (ECMAScript 2015) và các bản nâng cấp sau đó (ES7, ES8, …), lập trình viên được cung cấp nhiều tính năng mạnh mẽ, giúp viết code ngắn gọn, dễ đọc và hiệu suất cao hơn.',
-        image: './images/blog-2.avif',
+        image: imgae,
         content: `
         `,
 

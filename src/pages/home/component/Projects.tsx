@@ -70,7 +70,7 @@ const projects = [
 
 export default function ExperienceSection() {
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white py-20" id="kinh_nghiem">
             <div className="mx-auto w-[90%] max-w-[1200px]">
                 <h2 className="!text-3xl font-bold text-center mb-10 z-10">Kinh nghiệm làm việc</h2>
                 {/* Header */}
